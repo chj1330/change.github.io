@@ -5,22 +5,52 @@
   </head>
   <body>
     <p><a href="../index.html">Previous page</a></p>
-    <article>
-      <header>
-        <h1>Audio samples from "Style Tokens: Unsupervised Style Modeling, Control and Transfer in End-to-End Speech Synthesis"</h1>
-      </header>
-    </article>
+    <div>
+      <article>
+        <header>
+          <h1>Audio samples from "Multi-speaker Emotional Acoustic Modeling for CNN-based Speech Synthesis"</h1>
+        </header>
+      </article>
 
-    <p><b>Paper:</b> <a href="https://ieeexplore.ieee.org/abstract/document/8683682">arXiv</a></p>
-    <p><b>Authors</b>: Heejin Choi, Sangjun Park, Jinuk Park, Minsoo Hahn</p>
+      <p><b>Paper:</b> <a href="https://ieeexplore.ieee.org/abstract/document/8683682">IEEE Xplore</a></p>
+      <p><b>Authors</b>: Heejin Choi, Sangjun Park, Jinuk Park, Minsoo Hahn</p>
 
-    <div><b>Abstract:</b> In this paper, we investigate multi-speaker emotional acoustic modeling methods for convolutional neural network (CNN)
-      based speech synthesis system. For emotion modeling, we extend to the speech synthesis system that learns a latent embedding space of emotion,
-      derived from a desired emotional identity, and we use emotion code and mel-frequency spectrogram as an emotion identity. In order to model
-      speaker variation in a text-to-speech (TTS) system, we use speaker representations such as trainable speaker embedding and speaker code.
-      We have implemented speech synthesis systems combining speaker representation and emotion representation and compared them by experiments.
-      Experimental results have demonstrated that the multi-speaker emotional speech synthesis approach using trainable speaker embedding and emotion
-      representation from mel spectrogram achieves higher performance when compared with other approaches in terms of naturalness, speaker similarity,
-      and emotion similarity. </div>
- </body>
+      <div><b>Abstract:</b> In this paper, we investigate multi-speaker emotional acoustic modeling methods for convolutional neural network (CNN)
+        based speech synthesis system. For emotion modeling, we extend to the speech synthesis system that learns a latent embedding space of emotion,
+        derived from a desired emotional identity, and we use emotion code and mel-frequency spectrogram as an emotion identity. In order to model
+        speaker variation in a text-to-speech (TTS) system, we use speaker representations such as trainable speaker embedding and speaker code.
+        We have implemented speech synthesis systems combining speaker representation and emotion representation and compared them by experiments.
+        Experimental results have demonstrated that the multi-speaker emotional speech synthesis approach using trainable speaker embedding and emotion
+        representation from mel spectrogram achieves higher performance when compared with other approaches in terms of naturalness, speaker similarity,
+        and emotion similarity. </div>
+
+      <h2>Experiments</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Ground-truth</th><th>SC-EC/th><th>SC-EEC/th><th>SC-EEM/th><th>SE-EEC/th><th>SE-EEM/th>
+        </thead>
+        <tbody>
+          <tr><td colspan="6"><span>안녕하세요.</span></td></tr>
+          <tr>Neutral
+            <td><audio controls=""><source src="/audio/Female A/N_REFER.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/N_SC-EC.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/N_SC-EEC.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/N_SC-EEM.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/N_SE-EEC.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/N_SE-EEM.wav" type="audio/wav"></audio></td>
+          </tr>
+          <tr>Happy
+            <td><audio controls=""><source src="/audio/Female A/H_REFER.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/H_SC-EC.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/H_SC-EEC.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/H_SC-EEM.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/H_SE-EEC.wav" type="audio/wav"></audio></td>
+            <td><audio controls=""><source src="/audio/Female A/H_SE-EEM.wav" type="audio/wav"></audio></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
+        
