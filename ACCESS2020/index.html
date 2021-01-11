@@ -8,22 +8,20 @@
     <div>
       <article>
         <header>
-          <h1>Audio samples from "Sequence-to-Sequence Emotional Voice Conversion with Intensity Control"</h1>
+          <h1>Audio samples from "Sequence-to-Sequence Emotional Voice Conversion with Intensity and Duration Control"</h1>
         </header>
       </article>
 
       <p><b>Authors</b>: Heejin Choi, Minsoo Hahn</p>
 
-      <div><b>Abstract:</b> This paper proposes an emotional voice conversion system capable of controlling emotional intensity levels.
-        Emotional voice conversion methods without duration mapping produce emotional speech samples with lengths identical to those of the input neutral speech samples.
-        In reality, the same sentence is uttered, just at different speeds depending on the emotion type.
-        To solve this problem, the proposed method applied a sequence-to-sequence network with an attention module that enables the network to learn
-        where attention should be focused in the input neutral sequence with regard to each item in the output emotional sequence. 
-        To capture the multi-attribute aspects of emotional variations, an emotion encoder is designed for transforming acoustic features into emotion-embedding vectors.
-        By aggregating the emotion-embedding vectors, representative vectors in accordance with each target emotion are obtained and weighted.
-        With an explicit speaker annotation, the proposed method maintains the identity of the speaker in the event of an emotional conversion.
-        Objective and subjective evaluation results demonstrate the superiority of the proposed method relative to baseline methods.
-        Specifically, results on emotion intensity recognition highlight the emotion strength controllability of the proposed method. </div>
+      <div><b>Abstract:</b> This paper proposes an improved emotional voice conversion (EVC) method with emotional intensity and utterance duration controllability.
+        EVC methods without duration mapping produce emotional speech with identical duration to that of the neutral input speech. In reality, even the same sentence
+        would have different duration and speed depending on the emotion. To solve this, our proposed method adopted a sequence-to-sequence network with an attention
+        module that enables the network to learn attention in the neutral input sequence should be focused on which part of the emotional output sequence. In addition,
+        to capture the multi-attribute aspects of emotional variations, an emotion encoder is designed for transforming acoustic features into emotion embedding vectors.
+        By aggregating the emotion embedding vectors for each emotion, a representative vector for the target emotion is obtained and weighted to reflect emotion intensity.
+        y introducing speaker indexing, the proposed method can preserve speaker identity fairly well even after the emotion conversion. Objective and subjective evaluation
+        esults confirm that the proposed method is superior to other previous works. Especially, in emotion intensity control, we succeeded in getting fairly successful results. </div>
 
       <h2>Comparison with the baseline methods</h2>
       <table>
