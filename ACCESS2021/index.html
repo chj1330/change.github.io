@@ -1,27 +1,28 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Audio samples from "Sequence-to-Sequence Emotional Voice Conversion with Intensity and Duration Control"</title>
+    <title>Audio samples from "Sequence-to-Sequence Emotional Voice Conversion with Strength Control"</title>
   </head>
   <body>
     <p><a href="../index.html">Previous page</a></p>
     <div>
       <article>
         <header>
-          <h1>Audio samples from "Sequence-to-Sequence Emotional Voice Conversion with Intensity and Duration Control"</h1>
+          <h1>Audio samples from "Sequence-to-Sequence Emotional Voice Conversion with Strength Control"</h1>
         </header>
       </article>
 
       <p><b>Authors</b>: Heejin Choi, Minsoo Hahn</p>
 
-      <div><b>Abstract:</b> This paper proposes an improved emotional voice conversion (EVC) method with emotional intensity and utterance duration controllability.
-        EVC methods without duration mapping produce emotional speech with identical duration to that of the neutral input speech. In reality, even the same sentence
-        would have different duration and speed depending on the emotion. To solve this, our proposed method adopted a sequence-to-sequence network with an attention
-        module that enables the network to learn attention in the neutral input sequence should be focused on which part of the emotional output sequence. In addition,
-        to capture the multi-attribute aspects of emotional variations, an emotion encoder is designed for transforming acoustic features into emotion embedding vectors.
-        By aggregating the emotion embedding vectors for each emotion, a representative vector for the target emotion is obtained and weighted to reflect emotion intensity.
-        y introducing speaker indexing, the proposed method can preserve speaker identity fairly well even after the emotion conversion. Objective and subjective evaluation
-        esults confirm that the proposed method is superior to other previous works. Especially, in emotion intensity control, we succeeded in getting fairly successful results. </div>
+      <div><b>Abstract:</b> This paper proposes an improved emotional voice conversion (EVC) method with emotional strength and duration controllability.
+        EVC methods without duration mapping generate emotional speech with identical duration to that of the neutral input speech.
+        In reality, even the same sentences would have different speeds and rhythms depending on the emotions. To solve this, the proposed method adopts
+        a sequence-to-sequence network with an attention module that enables the network to learn attention in the neutral input sequence should be focused
+        on which part of the emotional output sequence. Besides, to capture the multi-attribute aspects of emotional variations, an emotion encoder is designed
+        for transforming acoustic features into emotion embedding vectors. By aggregating the emotion embedding vectors for each emotion, a representative vector
+        for the target emotion is obtained and weighted to reflect emotion strength. By introducing a speaker encoder, the proposed method can preserve speaker
+        identity even after the emotion conversion. Objective and subjective evaluation results confirm that the proposed method is superior to other previous works.
+        Especially, in emotion strength control, we achieve in getting successful results. </div>
 
       <h2>Comparison with the baseline methods</h2>
       <table>
